@@ -11,7 +11,7 @@ With this script you should able to symbolicate multiple crash files in one go. 
 ## Steps
   1. Create new folder and place all your **.crash** files along with **.dSYM** and **yourApp.app**
       - dSYM files can be obtained from archive or can be downloaded from iTunesConnect
-  2. Download and copy **symbolicate.sh** to the same folder
+  2. Download and copy [symbolicate.sh](https://github.com/imGokul/ManualCrashSymbolication/blob/master/symbolicate.sh) to the same folder
   3. Open terminal or command line 
   4. Navigate to above folder location and execute 
     ```
@@ -22,6 +22,6 @@ With this script you should able to symbolicate multiple crash files in one go. 
 
 
 ###### Note:
-If you observe empty or unsymbolicated crash report do open *symbolicate.sh* and update symbolicatecrash path with suitable value. Correct path for your xcode version can be found using ```find /Applications/xCode.app -name symbolicatecrash -type f```
+If you observe empty or unsymbolicated crash report do open [symbolicate.sh](https://github.com/imGokul/ManualCrashSymbolication/blob/master/symbolicate.sh) and update symbolicatecrash path with suitable value. Correct path for your xcode version can be found using ```find /Applications/xCode.app -name symbolicatecrash -type f```
 
 To understand and analyzing application crash reports visit <https://developer.apple.com/library/content/technotes/tn2151/_index.html>
